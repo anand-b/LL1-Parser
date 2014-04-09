@@ -1,0 +1,8 @@
+Name Addr Temp
+. @ id
+Addr:Name @ id . Name
+Name:id Temp
+Temp:^
+Temp:. id Temp
+-
+id @ id . id
